@@ -42,8 +42,8 @@ def SMS_logo():
 def disclaimer():
     """显示免责声明"""
     text = (
-        "免责声明：本工具仅用于学习交流目的，请确保使用符合当地法律法规。任何滥用行为导致的后果由使用者自行承担。\n"
-        "项目地址: https://github.com/MallocPointer/SMSBoom-Terminal"
+        "免责声明：本工具仅用于学习交流目的。\n"
+       
     )
     print(f"\n{Fore.RED}{Style.BRIGHT}{text}{Style.RESET_ALL}\n")
 
